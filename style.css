@@ -1,0 +1,47 @@
+body{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+h2{
+    margin: 0px auto;
+    font-size: 35px;
+    margin: 10px;
+}
+.flex-container{
+    display: flex;
+    justify-content: center; /* center the container*/
+    align-items: center; /* tell contaner to aline child elements in column */
+}
+
+.flex-column{
+    height: 100%;
+    width: 100%;
+    flex-direction: column;
+
+}
+.flex-wrap{
+    flex-wrap: wrap; /* make container drop down once it reached max width*/
+    width: 432px;
+    height: 432px;
+  
+}
+
+
+.square{
+    border: 2px solid rgba(0,0,0,.75);
+    width: 140px;
+    height: 140px;
+}
+
+#reset-button{
+    text-align: center;
+    font-size: 20px;
+    border: 1px;
+    height: 55px;
+    width: 100px;
+    margin: 10px;
+}
+
+
+
+
